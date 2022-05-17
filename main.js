@@ -7,9 +7,9 @@ form.addEventListener("submit", (e) => {
 });
 
 let formValidation = () => {
-    if() {
+    if(input.value === "") {
         console.log("failure");
     } else {
-
+        console.log("success");
     }
-}
+};
