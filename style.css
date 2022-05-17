@@ -22,3 +22,7 @@ body {
     display: flex;
     gap: 25px;
 }
+
+i {
+    cursor: pointer;
+}
