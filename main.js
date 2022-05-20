@@ -32,7 +32,7 @@ let acceptData = () => {
     createPost();
 };
 
-// Uplode data or POST
+// Upload data or POST
 let createPost = () => {
     posts.innerHTML += `
     <div>
@@ -43,4 +43,5 @@ let createPost = () => {
         </span>
     </div>
     `;
+    input.value = "";
 };
